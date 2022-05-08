@@ -30,7 +30,7 @@ class Product(models.Model):
     Created_at = models.DateTimeField(auto_now_add=False, default=timezone.now())
     price_1 = models.DecimalField(max_digits=10, decimal_places=2)
     price = models.DecimalField(max_digits=10, decimal_places=2)
-    image = models.ImageField(upload_to='static/shop/images')
+    image = models.ImageField(upload_to='shop/images')
     published = models.BooleanField(default=True)
     Featured = models.BooleanField(default=False)
 
@@ -109,7 +109,7 @@ class Order(models.Model):
 class OrderItem(models.Model):
     order = models.ForeignKey(Order,on_delete=models.CASCADE)
     product = models.CharField(max_length=500)
-    image = models.ImageField(upload_to='static/shop/img')
+    image = models.ImageField(upload_to='shop/img')
     quantity = models.CharField(max_length=100)
     price = models.CharField(max_length=100)
     
