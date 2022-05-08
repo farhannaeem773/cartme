@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}<title>{{product.0.name}}</title>{% endblock %}
+{% block css %} 
+<link rel="stylesheet" href={% static "view.css" %} media="screen">
+
+{% endblock %}
+{% block body %}
+<section class="u-clearfix u-grey-10 u-section-1" id="sec-0556">
+  <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-middle-xs u-sheet-1"><!--product--><!--product_options_json--><!--{"source":""}--><!--/product_options_json--><!--product_item-->
+    <div class="u-container-style u-expanded-width u-grey-10 u-product u-product-1">
+      <div class="u-container-layout u-valign-bottom-lg u-valign-bottom-xl u-valign-middle-md u-valign-top-sm u-valign-top-xs u-container-layout-1"><!--product_image-->
+        <img alt="" class="u-image u-image-default u-product-control u-image-1" data-image-width="2000" data-image-height="1333" src='/media/{{product.0.image}}'><!--/product_image-->
+        <div class="u-align-left u-container-style u-expanded-width-sm u-expanded-width-xs u-grey-10 u-group u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-container-layout-2"><!--product_title-->
+            <h2 class="u-product-control u-text u-text-1">
+              <a class="u-product-title-link" href="#"><!--product_title_content-->{{product.0.name}}<!--/product_title_content--></a>
+            </h2><!--/product_title-->
+            <h6 class="u-text u-text-default u-text-2">Rs:{{product.0.price_1}}</h6>
+            <h6 class="u-text u-text-default u-text-3">______________</h6><!--product_price-->
+            <div class="u-product-control u-product-price u-product-price-1">
+              <div class="u-price-wrapper u-spacing-10"><!--product_old_price-->
+            
+                <div class="u-price u-text-palette-2-base" style="font-size: 1.5rem; font-weight: 700;"><!--product_regular_price_content-->Rs:{{product.0.price}}<!--/product_regular_price_content--></div><!--/product_regular_price-->
+              </div>
+            </div><!--/product_price--><!--product_content-->
+            <div class="u-product-control u-product-desc u-text u-text-default u-text-4"><!--product_content_content-->
+              <p>{{product.0.description}}</p><!--/product_content_content-->
+            </div><!--/product_content--><!--product_button--><!--options_json--><!--{"clickType":"add-to-cart"}--><!--/options_json-->
+            <a href="{% url 'cart_add' product.0.id %}" class="u-black u-btn u-button-style u-hover-grey-75 u-product-control u-btn-1"><!--product_button_content-->Add to Cart<!--/product_button_content--></a><!--/product_button-->
+          </div>
+        </div>
+      </div>
+    </div><!--/product_item--><!--/product-->
+  </div>
+</section>
+    
+    
+    {% endblock %}
+
+    <section class="u-clearfix u-grey-10 u-section-1" id="sec-0556">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-middle-xs u-sheet-1"><!--product--><!--product_options_json--><!--{"source":""}--><!--/product_options_json--><!--product_item-->
+        <div class="u-container-style u-expanded-width u-grey-10 u-product u-product-1">
+          <div class="u-container-layout u-valign-bottom-lg u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-1"><!--product_image-->
+            <img alt="" class="u-image u-image-default u-product-control u-image-1" data-image-width="2000" data-image-height="1333" src='/media/{{product.0.image}}'><!--/product_image-->
+            <div class="u-align-left u-container-style u-expanded-width-sm u-expanded-width-xs u-grey-10 u-group u-shape-rectangle u-group-1">
+              <div class="u-container-layout u-container-layout-2"><!--product_title-->
+                <h2 class="u-product-control u-text u-text-1">
+                  <a class="u-product-title-link" href="#"><!--product_title_content-->{{product.0.name}}<!--/product_title_content--></a>
+                </h2><!--/product_title--><!--product_price-->
+                <div class="u-product-control u-product-price u-product-price-1">
+                  <div class="u-price-wrapper u-spacing-10"><!--product_old_price-->
+                    <div class="u-hide-price u-old-price" style="text-decoration: line-through !important;"><!--product_old_price_content-->$12<!--/product_old_price_content--></div><!--/product_old_price--><!--product_regular_price-->
+                    <div class="u-price u-text-palette-2-base" style="font-size: 1.5rem; font-weight: 700;"><!--product_regular_price_content-->Rs:{{product.0.price}}<!--/product_regular_price_content--></div><!--/product_regular_price-->
+                  </div>
+                </div><!--/product_price-->
+                <h6 class="u-text u-text-default u-text-2">Rs:{{product.0.price_1}}</h6>
+                <h6 class="u-text u-text-default u-text-3">______________________</h6><!--product_content-->
+                <div class="u-product-control u-product-desc u-text u-text-default u-text-4"><!--product_content_content-->
+                  <p>{{product.0.description}}</p><!--/product_content_content-->
+                </div><!--/product_content--><!--product_button--><!--options_json--><!--{"clickType":"add-to-cart"}--><!--/options_json-->
+                <a href="{% url 'cart_add' product.0.id %}" class="u-black u-btn u-button-style u-hover-grey-75 u-product-control u-btn-1"><!--product_button_content-->Add to Cart<!--/product_button_content--></a><!--/product_button-->
+              </div>
+            </div>
+          </div>
+        </div><!--/product_item--><!--/product-->
+      </div>
+    </section>
+    
+    
+    

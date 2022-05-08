@@ -1,0 +1,385 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 867px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 91px 668px 0 78px;
+}
+
+.u-section-1 .u-list-1 {
+  grid-template-rows: auto;
+  margin-top: 14px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-gap: 10px 10px;
+  min-height: 650px;
+}
+
+.u-section-1 .u-list-item-1 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 4px 0 0;
+}
+
+.u-section-1 .u-image-1 {
+  height: 316px;
+  margin-top: 42px;
+  margin-bottom: 0;
+}
+
+
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 281px auto 0 30px;
+}
+
+.u-section-1 .u-text-3 {
+  line-height: 3.1;
+  letter-spacing: 0px;
+  text-decoration: none solid rgb(102, 102, 102);
+  font-size: 1.25rem;
+  margin: -9px 149px 0 30px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: -45px 229px 0 30px;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 700;
+  margin: -21px 71px 0 auto;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 17px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 14px 16px 0 auto;
+}
+
+.u-section-1 .u-list-item-2 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 4px 0 0;
+}
+
+.u-section-1 .u-image-3 {
+  height: 316px;
+  margin-top: 42px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-image-4 {
+  width: 105px;
+  min-height: 31px;
+  background-image: url("images/sale-tap-512.png");
+  margin: -292px auto 0 17px;
+}
+
+.u-section-1 .u-text-7 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 281px auto 0 30px;
+}
+
+.u-section-1 .u-text-8 {
+  line-height: 3.1;
+  letter-spacing: 0px;
+  text-decoration: none solid rgb(102, 102, 102);
+  font-size: 1.25rem;
+  margin: -9px 149px 0 30px;
+}
+
+.u-section-1 .u-text-9 {
+  margin: -45px 229px 0 30px;
+}
+
+.u-section-1 .u-text-10 {
+  font-weight: 700;
+  margin: -21px 71px 0 auto;
+}
+
+.u-section-1 .u-text-11 {
+  margin: 17px 0 0;
+}
+
+.u-section-1 .u-btn-2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 14px 16px 0 auto;
+}
+
+.u-section-1 .u-list-item-3 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
+}
+
+.u-section-1 .u-container-layout-5 {
+  padding: 4px 0 0;
+}
+
+.u-section-1 .u-image-5 {
+  height: 316px;
+  margin-top: 42px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-image-6 {
+  width: 105px;
+  min-height: 31px;
+  background-image: url("images/sale-tap-512.png");
+  margin: -292px auto 0 17px;
+}
+
+.u-section-1 .u-text-12 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 281px auto 0 30px;
+}
+
+.u-section-1 .u-text-13 {
+  line-height: 3.1;
+  letter-spacing: 0px;
+  text-decoration: none solid rgb(102, 102, 102);
+  font-size: 1.25rem;
+  margin: -9px 149px 0 30px;
+}
+
+.u-section-1 .u-text-14 {
+  margin: -45px 229px 0 30px;
+}
+
+.u-section-1 .u-text-15 {
+  font-weight: 700;
+  margin: -21px 71px 0 auto;
+}
+
+.u-section-1 .u-text-16 {
+  margin: 17px 0 0;
+}
+
+.u-section-1 .u-btn-3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 14px 16px 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 546px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    min-height: 533px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 261px;
+  }
+
+ 
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 29px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-3 {
+    height: 261px;
+  }
+
+  .u-section-1 .u-image-4 {
+    margin-top: -237px;
+  }
+
+  .u-section-1 .u-text-8 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-9 {
+    margin-right: 29px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-5 {
+    height: 261px;
+  }
+
+  .u-section-1 .u-image-6 {
+    margin-top: -237px;
+  }
+
+  .u-section-1 .u-text-13 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-14 {
+    margin-right: 29px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 326px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+    min-height: 1220px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 300px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -276px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-3 {
+    height: 300px;
+  }
+
+  .u-section-1 .u-image-4 {
+    margin-top: -276px;
+  }
+
+  .u-section-1 .u-text-9 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-5 {
+    height: 300px;
+  }
+
+  .u-section-1 .u-image-6 {
+    margin-top: -276px;
+  }
+
+  .u-section-1 .u-text-14 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 146px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+    min-height: 1812px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 7px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 450px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -426px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-top: 7px;
+  }
+
+  .u-section-1 .u-image-3 {
+    height: 450px;
+  }
+
+  .u-section-1 .u-image-4 {
+    margin-top: -426px;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-top: 7px;
+  }
+
+  .u-section-1 .u-image-5 {
+    height: 450px;
+  }
+
+  .u-section-1 .u-image-6 {
+    margin-top: -426px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    min-height: 1453px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 2px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 283px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -259px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-top: 2px;
+  }
+
+  .u-section-1 .u-image-3 {
+    height: 283px;
+  }
+
+  .u-section-1 .u-image-4 {
+    margin-top: -259px;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-top: 2px;
+  }
+
+  .u-section-1 .u-image-5 {
+    height: 283px;
+  }
+
+  .u-section-1 .u-image-6 {
+    margin-top: -259px;
+  }
+}
