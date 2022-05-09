@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
+from requests import request
 from .models import  Product
 from .models import Category
 from .models import Contact
@@ -48,7 +49,7 @@ def contact(request):
 def store(request):
     product = Product.objects.filter(published=True)
     categories = Category.get_all_categories()
-    paginator = Paginator(product, 30) 
+    paginator = Paginator(product, 22) 
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     params={
@@ -62,7 +63,7 @@ def store(request):
 def recent(request):
     product = Product.objects.filter(published=True).order_by('-Created_at')
     categories = Category.get_all_categories()
-    paginator = Paginator(product, 30) 
+    paginator = Paginator(product, 22) 
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     params={
@@ -209,4 +210,16 @@ def checkout(request):
     
 
 
-
+def search(request):
+    querry = request.GET.get('querry')
+    product = Product.objects.filter(published=True ,name__icontains = querry)
+    categories = Category.get_all_categories()
+    paginator = Paginator(product, 22) 
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    params={
+            'product': page_obj,
+            'page_obj':page_obj,
+            'categories': categories,
+}
+    return render(request,"store.html", params)
