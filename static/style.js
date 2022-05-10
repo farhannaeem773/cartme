@@ -13,7 +13,7 @@ $(document).on("click", "#send-it", function() {
         )
       )
         var d = "whatsapp://send";
-      var g = d + "?phone=+92 308 4171377" + e + f;
+      var g = d + "?phone=+923114446788" + e + f;
       window.open(g, "_blank");
     }
   }),

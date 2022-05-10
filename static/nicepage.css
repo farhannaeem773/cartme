@@ -36948,10 +36948,10 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
-  font-weight: 700;
-  font-family: Aclonica;
   font-size: 1.125rem;
   letter-spacing: normal;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
 }
 
 .u-header .u-nav-2 {
@@ -36973,13 +36973,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-3 {
-  font-weight: 700;
-  font-family: Aclonica;
   text-transform: uppercase;
+  font-weight: 700;
+}
+
+.u-header .u-nav-4 {
+  text-shadow: 0 2px 8px rgba(128,128,128,1);
 }
 
 .u-header .u-nav-5 {
   font-size: 1.25rem;
+}
+
+.u-header .u-nav-6 {
+  text-shadow: 0 2px 8px rgba(128,128,128,1);
 }
 .u-header .u-section-row-3 {
   background-image: none;
@@ -37001,7 +37008,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-btn-1 {
   border-style: none none solid;
-  font-family: Aclonica;
+  font-family: "Open Sans", sans-serif;
   margin: -31px 49px -54px auto;
   padding: 0;
 }
@@ -37034,7 +37041,11 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-bottom: 10px;
   }
 }
-
+@media (max-width: 1199px) {
+  .u-header .u-nav-3 {
+    font-family: "Open Sans", sans-serif;
+  }
+}
 @media (max-width: 1199px) {
   .u-header .u-shopping-cart-1 {
     height: 36px;
